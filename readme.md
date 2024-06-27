@@ -126,7 +126,7 @@ python inference.py
 
 ## 4. 推理加速
 
-### onnx模型
+### ONNX模型
 
 #### 模型转换：pt→onnx
 
@@ -199,7 +199,7 @@ pip install openvino
 
 #### 参数配置修改
 
-- 在**.\ultralytics\cfg\default.yaml**中修改**device**字段，**强制修改为CPU**。
+- 在 **.\ultralytics\cfg\default.yaml** 中修改**device**字段，**强制修改为CPU**。
 
 #### 模型转换：pt→bin/xml
 
@@ -254,7 +254,7 @@ python inference.py
 
 #### 参数配置修改
 
-- 在**.\ultralytics\cfg\default.yaml**中修改**device**字段，**强制修改为GPU**，一般默认设置为**0**。
+- 在 **.\ultralytics\cfg\default.yaml** 中修改**device**字段，**强制修改为GPU**，一般默认设置为**0**。
 
 #### 模型转换：pt→onnx→trt
 
@@ -295,11 +295,11 @@ python inference.py
 
 ### 推理设备
 
-​		在**.\ultralytics\cfg\default.yaml**中修改**device**字段，**device为0 - 7**，表示使用**GPU**，**device为cpu**，表示使用**CPU**。
+​		在 **.\ultralytics\cfg\default.yaml** 中修改**device**字段，**device为0 - 7**，表示使用**GPU**，**device为cpu**，表示使用**CPU**。
 
 ### 打印LOG
 
-​		在**.\ultralytics\cfg\default.yaml**中修改**verbose**字段，**verbose为True**表示**打印LOG**，**verbose为False**表示**不打印LOG**。
+​		在 **.\ultralytics\cfg\default.yaml** 中修改**verbose**字段，**verbose为True**表示**打印LOG**，**verbose为False**表示**不打印LOG**。
 
 ## 6. 参考
 
